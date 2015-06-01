@@ -369,7 +369,7 @@ void history_cmd()
 	if (envhis.start==envhis.end);
 	else if (envhis.start<envhis.end)
 	{
-		for (i=envhis.start+1;i>=envhis.end;i++)
+		for (i=envhis.start+1;i<=envhis.end;i++)
 		{
 			printf("%d\t%s\n",j,envhis.his_cmd[i]);
 			j++;
