@@ -9,7 +9,7 @@
 #include <malloc.h>
 #include <string.h>
 #include <direct.h>
-#include "WinShell.h"
+#include "Guai_headfile.h"
 
 int main()
 {
