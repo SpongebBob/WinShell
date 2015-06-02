@@ -123,7 +123,7 @@ int main()
 				continue;
 			}
 			is_bg=0;
-			hprocess=process(is_bg,input);
+			hprocess=process(is_bg,arg[1]);
 			if (WaitForSingleObject(hprocess,INFINITE)==WAIT_OBJECT_0)
 				free(input);
 			continue;
@@ -139,7 +139,7 @@ int main()
 				continue;
 			}
 			is_bg=1;
-			process(is_bg,input);
+			process(is_bg,arg[1]);
 			free(input);
 			continue;
 		}
